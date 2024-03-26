@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakalo-APP</title>
+    <link rel="stylesheet" href="index.css">
+    <script src=" https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+        <form class="search" id="search">
+            <input type="search" placeholder="Enter a city" required id="search-input" class="search-input">
+            <input type="submit" value="search" class="search-button">
+        </form>
+    </header>
+    <main>
+        <div class="weather-data">
+         <div>
+            <h1 class="weather-city" id="city"></h1>
+            <p class="weather-details">
+                 <span id="time"></span>
+                 <span id="temperature"></span>
+                 <span id="description"></span>
+                 <br>
+                 Humidity: <strong id="humidity"></strong>,Wind: <strong class="windSpeed"></strong>
+            </p>
+         </div>
+         <div class="weather-container">
+            <div class="temperature-container">
+           <div id="icon"></div>
+           <div class="weather-temperature" id="temperature"></div>
+           <div class="weather-uint">°C</div>
+           </div>
+         </div>
+          <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Mon</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Tue</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Wed</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Thurs</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Fri</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Sat</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <div class="forecast-day">
+           <div class="forecast-date">Sun</div>
+           <div class="forecast-icon">🌧️</div>
+           <div class="forecast-temperatures">
+            <div class="forecast-temperature">
+              <strong>20°</strong>
+            </div>
+            <div class="forecast-temperature">25°</div>
+          </div>
+          </div>
+        </div>
+    </main>
+  </div>
+  <footer>
+    This project was coded by
+    <a href=" https://github.com/dashboard "> Dakalo Balibali</a>
+  </footer>
+    <script src="index.js"></script>
+</body>
+</html>
